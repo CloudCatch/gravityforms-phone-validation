@@ -20,6 +20,7 @@
 .env
 .DS_Store
 LICENSE
+README.md
 composer.lock
 phpcs.xml
 phpunit.xml
