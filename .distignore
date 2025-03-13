@@ -1,0 +1,26 @@
+# Directories
+/.wordpress-org
+/.git
+/.github
+/.vscode
+/node_modules
+/dist
+/tests
+/coverage
+/bin
+
+# Files
+.distignore
+.editorconfig
+.gitattributes
+.gitignore
+.releaserc.js
+.travis.yml
+.phpcs.xml.dist
+.env
+.DS_Store
+LICENSE
+composer.lock
+phpcs.xml
+phpunit.xml
+phpunit.xml.dist
