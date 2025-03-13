@@ -1,5 +1,25 @@
 {
+    "name": "cloudcatch/gravityforms-phone-validation",
+    "type": "wordpress-plugin",
+    "description": "A Gravity Forms plugin that adds phone number validation using libphonenumber-for-php",
+    "keywords": ["gravityforms", "phone", "validation", "libphonenumber"],
+    "homepage": "https://cloudcatch.io",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "CloudCatch",
+            "email": "hello@cloudcatch.io",
+            "homepage": "https://cloudcatch.io",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cloudcatch/gravityforms-phone-validation/issues",
+        "source": "https://github.com/cloudcatch/gravityforms-phone-validation"
+    },
     "require": {
+        "php": ">=8.1",
         "giggsey/libphonenumber-for-php": "^8.13"
     },
     "scripts": {
