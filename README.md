@@ -8,8 +8,12 @@ This plugin uses the [libphonenumber for PHP](https://github.com/giggsey/libphon
 - Navigate to the Gravity Forms settings page: `Forms > Settings`
 - On this main settings page, towards the bottom is a field labeled **Phone Validation Region**, specify the region in which you want to validate phone numbers against, and save.
 
+![image](https://github.com/user-attachments/assets/c95dd81f-5308-4e10-9ae5-0731d0ac6ac7)
+
 ## Usage
 
 This plugin by default will validate against **US** based phone numbers unless otherwise specified in the Gravity Forms settings.
 
 Submitting any form containing a **Phone** field type will now validate the phone number against the region.
+
+![image](https://github.com/user-attachments/assets/8daaa25c-ad41-4ec2-9825-5adcf8c3a5d3)
