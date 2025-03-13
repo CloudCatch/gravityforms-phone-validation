@@ -4,7 +4,7 @@
  * Description:       A simple plugin to add phone validation to Gravity Forms.
  * Requires at least: 6.5
  * Requires PHP:      8.1
- * Version:           0.0.0-development
+ * Version:           1.0.0
  * Author:            CloudCatch LLC
  * Author URI:        https://cloudcatch.io
  * License:           GPL v2 or later
