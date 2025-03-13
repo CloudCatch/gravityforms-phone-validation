@@ -2,6 +2,28 @@
 
 This plugin uses the [libphonenumber for PHP](https://github.com/giggsey/libphonenumber-for-php) to validate Gravity Forms phone number fields against a given region specified through the plugin settings. This plugin was created to help mitigate form submissions that contain invalid / fake phone numbers.
 
+## Installation
+
+```shell
+composer require cloudcatch/gravityforms-phone-validation
+```
+
+You can manually install this plugin by cloning this repository, and installing the requires dependencies:
+
+```shell
+# Clone the repository
+git clone https://github.com/CloudCatch/gravityforms-phone-validation.git
+
+# Change directory
+cd gravityforms-phone-validation
+
+# Install dependencies
+composer install --no-dev
+
+# Optionally generate a plugin zip which will output in the ./dist directory
+composer run plugin-zip
+```
+
 ## How to use
 
 - Install and activate the plugin
